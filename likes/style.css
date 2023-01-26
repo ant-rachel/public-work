@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    padding:0px;
+    margin-inline: 25%;
+}
+
+.column-page-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    padding:0px;
+}
+
+/* navigation bar */
+
+.nav {
+    display: flex;
+    height: 50px;
+    background-color: rgb(31, 31, 31);
+    font-family: sans-serif;
+    margin-inline: 25%;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.nav-links {
+    color:rgb(184, 184, 184);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.center-text {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    height: 30px;
+    display: inline-block;
+    border-color: black;
+    padding: 5px 5px;
+}
+
+.spacing-in-card {
+    margin-top: 50px
+}
+
+.card-top-margin {
+    margin-top: 20px;
+}
+
+.btn-padding-inline {
+    padding-inline: 20px;
+}
+
+.bottom-margin {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-right: 120px;
+}
+
+.like-button-margin {
+    margin-left: 40px;
+}
+
+/* profile card */
+
+.left-card-container{
+    width: 400px;
+    display: flex;
+    border: 2px solid rgb(181, 181, 181);
+    padding:10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top-text {
+    justify-content: center;
+}
+
+.img-sizing {
+    height: 60px;
+}
+
+.p-text {
+    font-size: 14px;
+}
+
+.yellow {
+    background-color: goldenrod;
+}
+
+#right-card-container{
+    height: 150px;
+    width: 100px;
+    margin-right: 10%;
+    text-align: center;
+    display: flex;
+    border: 2px solid rgb(181, 181, 181);
+    padding:10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.anchor-right {
+    display: flex;
+}
+
+

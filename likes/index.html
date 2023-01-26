@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="white">Network</h1>    
+    </div>
+    <div class="head-spacer">
+        <h2 class="center-text">Your Feed</h2>
+    </div>
+    <div class="page-container">
+        <div class="column-page-container">   
+            <div id="right-card-container">
+                <img class="img-sizing bottom-margin"src="./user-circle.png">
+                <a class="p-text bottom-margin" href="#">Add an Avatar</a>
+                <h4>James Doe</h4>
+            </div>
+        </div>
+        <div class="column-page-container">
+            <div class="left-card-container bottom-margin">
+                <h3 class = 'top-text'>Neil M</h3>
+                <div class="anchor-right">
+                    <p><span id="like-count1">9</span> like(s)</p>
+                    <button class ="btn yellow like-button-margin btn-padding-inline" onclick="increaseCount('#like-count1')">Like</button>
+                </div>
+                <p class="p-text">I just set up this new discord bot, let me know what you all think. <a href="#">link</a>.</p>
+            </div>
+            <div class="left-card-container bottom-margin">
+                <h3 class = 'top-text'>Nichole K</h3>
+                <div class="anchor-right">
+                    <p><span id="like-count2">12</span> like(s)</p>
+                    <button class ="btn yellow like-button-margin btn-padding-inline" onclick="increaseCount('#like-count2')">Like</button>
+                </div>
+                <p class="p-text">Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="left-card-container bottom-margin">
+                <h3 class = 'top-text'>Jim R</h3>
+                <div class="anchor-right">
+                    <p><span id="like-count3">9</span> like(s)</p>
+                    <button class ="btn yellow like-button-margin btn-padding-inline" onclick="increaseCount('#like-count3')">Like</button>
+                </div>
+                <p class="p-text">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js"></script> 
+</body>
+</html>
